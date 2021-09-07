@@ -1,3 +1,3 @@
-# /bin/sh 
+#!/bin/sh 
 
-git log --format="%H" -n 5
+git ls-files --others --ignored --exclude-standard
